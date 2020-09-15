@@ -1,0 +1,53 @@
+.LogoText {
+  height: 20vh;
+  background-color: black;
+  padding-left: 5%;
+  
+
+  .staticText {
+    color: white;
+    font-size: 1em;
+    padding-left: 2%;
+    letter-spacing: 0;
+  }
+
+
+}
+.Logo {
+  height: 10vh;
+  position: relative;
+  width: 7vw;
+  display: flex;
+  margin-right: 20px;
+  justify-items: center;
+  align-items: center;
+  
+  .off {
+    height: 10vh;
+    opacity: 1;
+    position: absolute;
+    margin-right: 20vw;
+    z-index: 1;
+  }
+  .on {
+    height: 10vh;
+    opacity: 0;
+    position: relative;
+    margin-right: 20vw;
+    z-index: 2;
+    animation: fade 8s infinite ease-in;
+    
+    }
+}
+@keyframes fade {
+  60% {
+    opacity: 0;
+  }
+  
+  70% {
+    opacity: 1;
+  } 
+  100% {
+    opacity: 0;
+  }
+}
