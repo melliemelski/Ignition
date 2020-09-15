@@ -1,0 +1,36 @@
+.bar { 
+  height: 5vh;
+  background-color: #ff841c;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+
+  ul {
+    height: 100%;
+    width: 100%;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    li {
+      display: flex;
+      height: 100%;
+      align-items: center;
+    }
+
+    li a {
+      list-style: none;
+      color: white;
+      text-decoration: none;
+      align-self: center;
+    }
+
+    :hover {
+      background-color: white;
+      color: #ff841c;
+    }
+  }
+  
+}

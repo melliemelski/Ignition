@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Jumbotron from './Jumbotron';
+import NavBar from './NavBar';
 
 test('should render', () => {
-    expect(render( < Jumbotron / > )).toBeTruthy();
+    expect(render( < NavBar / > )).toBeTruthy();
 });
