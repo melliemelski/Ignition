@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import on from '../../assets/Logo/on2.png';
 import off from '../../assets/Logo/off2.png';
 
+
 class Jumbotron extends Component {
   render() { 
     const string = Array.from("IGNITION")
