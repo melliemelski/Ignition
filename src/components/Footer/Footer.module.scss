@@ -1,0 +1,32 @@
+@import '../../Variables.scss';
+
+
+.footer {
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: $dark-color;
+
+  p {
+    color: $light-color;
+  }
+
+  h4 {
+    color: $primary-color;
+  }
+
+  .links a {
+    text-decoration: none;
+    display: flex;
+    color: $light-color;
+  }
+
+  .contact a {
+    text-decoration: none;
+    color: $primary-color;
+  }
+
+  input:focus {
+    outline: none;
+  }
+}

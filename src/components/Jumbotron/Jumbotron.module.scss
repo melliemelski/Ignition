@@ -1,11 +1,13 @@
+@import '../../Variables.scss';
+
 .LogoText {
   height: 20vh;
-  background-color: black;
+  background-color: $dark-color;
   padding-left: 5%;
   
 
   .staticText {
-    color: white;
+    color: $light-color;
     font-size: 1em;
     padding-left: 2%;
     letter-spacing: 0;
