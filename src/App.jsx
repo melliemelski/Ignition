@@ -4,6 +4,7 @@ import Jumbotron from './components/Jumbotron';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import ImageCarousel from './components/ImageCarousel';
+import Article1 from './containers/Article1';
 
 class App extends Component {
   render () {
@@ -12,6 +13,7 @@ class App extends Component {
     <Jumbotron></Jumbotron>
     <NavBar></NavBar>
     <ImageCarousel></ImageCarousel>
+    <Article1></Article1>
     <Footer></Footer>
     </>  
   );
