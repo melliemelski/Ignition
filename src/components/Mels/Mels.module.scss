@@ -1,0 +1,21 @@
+@import '../../Variables.scss';
+
+.visitors {
+  width: 92vw;
+  padding: 3%;
+  margin: 1% auto;
+  background-color: $light-color;
+}
+
+  button:focus {
+    outline: none;
+  }
+  button {
+    height: 2.5em;
+    padding: 2px;
+    border: none;
+    background-color: $primary-color;
+    color: $light-color;
+    font-size: 20px;
+    font-weight: bold;
+  }

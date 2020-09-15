@@ -29,15 +29,15 @@ class Gallery extends Component {
   const image4 = this.props.image4
   const image5 = this.props.image5
   const image6 = this.props.image6
-  
+
   const modal = this.state.isOpen ? (
     <img src={image1Large} classNAme={styles.modal} onClick={this.toggleState}/>
   ) : null;
   
   return (
     <>
-      {modal}
     <div className={styles.grid}>
+      {modal}
       <img src= {image1}/>
       <img src= {image2} onClick={this.toggleState}/>
       <img src= {image3}/>
