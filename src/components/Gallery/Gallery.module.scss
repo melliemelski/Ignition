@@ -1,0 +1,21 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  img {
+    
+    width: 33%;
+  }
+
+}
+button {
+  height: 20px;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 999;
+}
